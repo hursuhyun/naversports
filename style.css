@@ -1,0 +1,185 @@
+
+body {
+	margin : 0;
+}
+#menubar{
+	margin : 12px;
+    display: flex;
+    color : blue;
+    font-weight : 500;
+    font-size : 19px;
+    vertical-align: middle;
+}
+
+.naversports{
+	margin: 0px auto;
+}
+
+.menu1 {
+	width : 100%;
+	height : 43px;
+}
+
+.menu1 ul{
+	width: 700px;
+	height : 43px;
+	margin : auto;
+	padding : 0;
+	display: flex;
+	justify-content: space-around;
+}
+
+.menu1 li{
+	list-style: none;
+	margin : auto;
+}
+.menu2{
+	width: 100%;
+	height: 40px;
+	background-color: #2565d0;	
+    display : flex;
+    vertical-align: center;
+}
+.menu2 ul {
+	margin : 0 auto;
+	padding : 0;
+	width:700px;
+	height : 40px;
+	display: flex;
+}
+.menu2 li{
+    color: #afb9ec;
+    margin : auto auto;
+    text-align: center;
+	width : 20%;
+	list-style: none;
+}
+
+content{
+    background-color:#EBEBEB;
+    color:#000;
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    margin:0 auto;
+    justify-content: center;
+}
+
+#image{
+	position: relative;
+}
+#newsimage{
+	height: 200px;
+	width: 400px;
+}
+#article1{
+	position: absolute;
+	bottom : 10px;
+	left: 5px;
+	color: white;
+}
+#article2{
+	font-size: 10;
+}
+#lines{
+	float: right;
+	background-color: white;
+	height: 200px;
+	width: 300px;
+}
+#line{
+	height: 52px;
+    padding: 5px;
+	font-size: 20;
+}
+#line{
+    flex: 1 1 0;
+    font-size: 17px;
+    box-shadow: 0 1px 0 0 #EBEBEB;
+    padding-top: 10px;
+}
+
+#plays {
+	background-color: white;
+	height: 235px;
+	width: 700px;
+	margin : 0 auto;
+	color : black;
+}
+#allplay {
+	margin : 0 auto;
+	left: -50%;
+}
+.playNow {
+	text-align: center;
+	margin : auto auto;
+	width : 500px;
+	height : 38px;
+	display: flex;
+	justify-content: space-around;
+	vertical-align: middle;
+}
+#plays hr {
+	margin : 0;
+}
+#team{
+	text-align: center;
+	font-size: 1em;
+	width : 100px;
+	margin: auto auto; 
+}
+#symbol img{
+	float: left;
+	height: 30px;
+	width: 30px;
+	margin: auto auto; 
+}
+#box{
+	font-size: 0.5em;
+	margin: auto auto; 
+}
+#expect{
+}
+#bar{
+    width : 50px;
+}
+#time{
+	font-size: 0.7em;
+}
+.videoHeader {
+	width:100%;
+	height:30px;
+}
+
+.videos{
+	margin-top : 10px;
+	background-color: white;
+	width: 700px;
+}
+
+.videos src{
+	margin-left: 50px ;
+}
+.videoBody {
+	display : flex;
+	flex-wrap : wrap;
+}
+.videoBox {
+	width : 40%;
+	margin-left :5%;
+	margin-right : 5%;
+	height : auto;
+}
+.videoBox img {
+	width : 100%;
+}
+#video1{
+	display: right
+
+}
+#first{
+	text-align: left;
+}
+#explain{
+	width: 100%;
+}
